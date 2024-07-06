@@ -9,7 +9,7 @@ const RootLayout = ({
     return ( 
         <div className="h-full">
             <Navbar/>
-            <div className="md:flex mt-16 w-20 flex-col fixed inset-y-0">
+            <div className="hidden md:flex mt-16 w-20 flex-col fixed inset-y-0">
                 <Sidebar/>
 
             </div>
